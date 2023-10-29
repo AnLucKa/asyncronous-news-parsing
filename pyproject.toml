@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyppeteer-parse"
+version = "0.1.0"
+description = ""
+authors = ["AnLucKa <loalppts@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9.3"
+pyppeteer = { git = "https://github.com/pyppeteer/pyppeteer.git", branch= "dev" }
+fake-useragent = "^1.3.0"
+schedule = "^1.2.1"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
